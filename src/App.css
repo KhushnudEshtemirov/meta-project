@@ -1,13 +1,122 @@
-.App {
-  padding-left: 30px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-.buttons {
-  margin-top: 20px;
+header {
+  padding: 30px;
 }
 
-.buttons > button {
-  margin-right: 10px;
+header > ul {
+  display: flex;
+  gap: 20px;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.hero {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.me {
+  text-align: center;
+}
+
+.me img {
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.job {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 40px;
+  padding: 30px;
+  background-color: rgb(17, 211, 17);
+}
+
+.project {
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.project img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+}
+
+.contact {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(10, 10, 184);
+}
+
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form h2 {
+  color: white;
+}
+
+form label {
+  color: white;
+}
+
+form input {
+  height: 40px;
+  border-radius: 8px;
+}
+
+form select {
+  height: 40px;
+  border-radius: 8px;
+}
+
+form textarea {
+  border-radius: 8px;
+}
+
+form button {
+  height: 40px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
+footer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(29, 26, 26);
+}
