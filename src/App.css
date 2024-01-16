@@ -8,7 +8,7 @@
 }
 
 header {
-  padding: 30px;
+  padding: 30px 100px;
   background-color: rgb(29, 26, 26);
 }
 
@@ -55,7 +55,7 @@ li a svg {
 }
 
 .projects {
-  padding: 30px;
+  padding: 30px 100px;
   background-color: rgb(2, 107, 2);
 }
 
@@ -98,7 +98,7 @@ li a svg {
 }
 
 form {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -113,23 +113,33 @@ form label {
 }
 
 form input {
+  width: 100%;
   height: 40px;
   border-radius: 8px;
+  outline: none;
+  padding: 0 10px;
 }
 
 form select {
+  width: 100%;
   height: 40px;
   border-radius: 8px;
+  outline: none;
 }
 
 form textarea {
+  width: 100%;
+  padding: 10px;
   border-radius: 8px;
+  outline: none;
 }
 
 form button {
+  width: 100px;
   height: 40px;
   border-radius: 8px;
   cursor: pointer;
+  outline: none;
 }
 
 footer {
